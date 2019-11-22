@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nitk-shashankshah/React-Chip-Search/static/css/main.ef0a1970.chunk.css",
+    "main.js": "/nitk-shashankshah/React-Chip-Search/static/js/main.a377cab4.chunk.js",
+    "main.js.map": "/nitk-shashankshah/React-Chip-Search/static/js/main.a377cab4.chunk.js.map",
+    "runtime-main.js": "/nitk-shashankshah/React-Chip-Search/static/js/runtime-main.abbc07f1.js",
+    "runtime-main.js.map": "/nitk-shashankshah/React-Chip-Search/static/js/runtime-main.abbc07f1.js.map",
+    "static/js/2.4f1c6797.chunk.js": "/nitk-shashankshah/React-Chip-Search/static/js/2.4f1c6797.chunk.js",
+    "static/js/2.4f1c6797.chunk.js.map": "/nitk-shashankshah/React-Chip-Search/static/js/2.4f1c6797.chunk.js.map",
+    "index.html": "/nitk-shashankshah/React-Chip-Search/index.html",
+    "precache-manifest.5c5f2e72890946638807bdba18de985f.js": "/nitk-shashankshah/React-Chip-Search/precache-manifest.5c5f2e72890946638807bdba18de985f.js",
+    "service-worker.js": "/nitk-shashankshah/React-Chip-Search/service-worker.js",
+    "static/css/main.ef0a1970.chunk.css.map": "/nitk-shashankshah/React-Chip-Search/static/css/main.ef0a1970.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abbc07f1.js",
+    "static/js/2.4f1c6797.chunk.js",
+    "static/css/main.ef0a1970.chunk.css",
+    "static/js/main.a377cab4.chunk.js"
+  ]
+}
