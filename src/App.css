@@ -32,7 +32,10 @@ margin:0px;
 .filterList li:hover{
 background:#f9f9f9;
 }
-
+.search{
+  height:32px!important;
+  box-sizing: border-box;
+}
 .selectedItems{
   list-style-type:none;
   float:left;
@@ -45,6 +48,9 @@ ul.selectedItems li{
   background:#ccc;
   border-radius: 50px 50px 50px 50px;
   float:left;
+  height: 31px;
+  box-sizing: border-box;
+  border:1px solid #ccc;
 }
 .remove{
   background:none;
