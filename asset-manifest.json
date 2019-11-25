@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Chip-Search/static/css/main.35eb0518.chunk.css",
-    "main.js": "/React-Chip-Search/static/js/main.7c4fb712.chunk.js",
-    "main.js.map": "/React-Chip-Search/static/js/main.7c4fb712.chunk.js.map",
+    "main.js": "/React-Chip-Search/static/js/main.28e3584e.chunk.js",
+    "main.js.map": "/React-Chip-Search/static/js/main.28e3584e.chunk.js.map",
     "runtime-main.js": "/React-Chip-Search/static/js/runtime-main.c3d482fe.js",
     "runtime-main.js.map": "/React-Chip-Search/static/js/runtime-main.c3d482fe.js.map",
     "static/js/2.4f1c6797.chunk.js": "/React-Chip-Search/static/js/2.4f1c6797.chunk.js",
     "static/js/2.4f1c6797.chunk.js.map": "/React-Chip-Search/static/js/2.4f1c6797.chunk.js.map",
     "index.html": "/React-Chip-Search/index.html",
-    "precache-manifest.500383ffe3aeb38bd817029f0862d060.js": "/React-Chip-Search/precache-manifest.500383ffe3aeb38bd817029f0862d060.js",
+    "precache-manifest.052388d0566a3c5de3d22c4d44db192f.js": "/React-Chip-Search/precache-manifest.052388d0566a3c5de3d22c4d44db192f.js",
     "service-worker.js": "/React-Chip-Search/service-worker.js",
     "static/css/main.35eb0518.chunk.css.map": "/React-Chip-Search/static/css/main.35eb0518.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.c3d482fe.js",
     "static/js/2.4f1c6797.chunk.js",
     "static/css/main.35eb0518.chunk.css",
-    "static/js/main.7c4fb712.chunk.js"
+    "static/js/main.28e3584e.chunk.js"
   ]
 }
