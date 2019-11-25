@@ -26,7 +26,7 @@ class App extends React.Component {
         ],
         selectedList:[],
         searchStr:"",
-        lastSelected:false,
+        lastSelected:0,
         counter:0
      }
     this.handleChange = this.handleChange.bind(this);
@@ -48,19 +48,18 @@ class App extends React.Component {
 
   handleChange = (e) => {
     this.setState({searchStr: e.target.value});
-    if (this.state.searchStr.length===0){
-      this.setState({lastSelected:false});
-    }
+    this.setState({lastSelected:0});
   }
 
   handleKeyUp = (e) => {
     if (e.key === "Backspace") {
-      if (this.state.lastSelected===false){
-        this.setState({lastSelected:true});
-      } else {
+      if (this.state.lastSelected===1){
         if (this.state.selectedList!==undefined && this.state.selectedList.length>0)
           this.removeItem(this.state.selectedList.length-1, this.state.selectedList[this.state.selectedList.length-1]);
-      }
+        this.setState({lastSelected:0});
+      } else {
+        this.setState({lastSelected:this.state.lastSelected+1});
+      } 
     }    
   }
 
@@ -78,7 +77,7 @@ class App extends React.Component {
         <div style={{padding:"10px"}}>
           <Header/>
           <ul class="selectedItems">
-          {this.state.selectedList.map((person, i) => <Chip data = {person} onClick={() => this.removeItem(i, person)} />)}
+          {this.state.selectedList.map((person, i) => <Chip data = {person} onClick={() => this.removeItem(i, person)} isSelected={this.state.lastSelected} isLast={(i===this.state.selectedList.length-1)? true:false} />)}
           </ul>          
           <div style={{float:"left"}}>
             <input type="text" class="search" value={this.state.searchStr} onKeyUp={this.handleKeyUp} onChange={this.handleChange} />
@@ -112,9 +111,19 @@ class ListRow extends React.Component {
 }
 class Chip extends React.Component {
   render() {
+    if (!this.props.isLast) {
      return (
        <li><button class="remove" onClick={() => this.props.onClick()}>x</button> {this.props.data.name}</li>          
      );
+    } else if (this.props.isLast && this.props.isSelected===1){
+      return (
+        <li style={{border:"1px solid green"}}><button class="remove" onClick={() => this.props.onClick()}>x</button> {this.props.data.name}</li>          
+      );
+    } else {
+      return (
+        <li><button class="remove" onClick={() => this.props.onClick()}>x</button> {this.props.data.name}</li>          
+      );
+    }
   }
 }
 export default App;
