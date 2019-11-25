@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Chip-Search/static/css/main.ef0a1970.chunk.css",
-    "main.js": "/React-Chip-Search/static/js/main.9fb743ef.chunk.js",
-    "main.js.map": "/React-Chip-Search/static/js/main.9fb743ef.chunk.js.map",
+    "main.css": "/React-Chip-Search/static/css/main.7ff4a9aa.chunk.css",
+    "main.js": "/React-Chip-Search/static/js/main.7c4fb712.chunk.js",
+    "main.js.map": "/React-Chip-Search/static/js/main.7c4fb712.chunk.js.map",
     "runtime-main.js": "/React-Chip-Search/static/js/runtime-main.c3d482fe.js",
     "runtime-main.js.map": "/React-Chip-Search/static/js/runtime-main.c3d482fe.js.map",
     "static/js/2.4f1c6797.chunk.js": "/React-Chip-Search/static/js/2.4f1c6797.chunk.js",
     "static/js/2.4f1c6797.chunk.js.map": "/React-Chip-Search/static/js/2.4f1c6797.chunk.js.map",
     "index.html": "/React-Chip-Search/index.html",
-    "precache-manifest.76b5dd53b47f388c9646db890672576e.js": "/React-Chip-Search/precache-manifest.76b5dd53b47f388c9646db890672576e.js",
+    "precache-manifest.d21cae07f079d396a596264fed830d2b.js": "/React-Chip-Search/precache-manifest.d21cae07f079d396a596264fed830d2b.js",
     "service-worker.js": "/React-Chip-Search/service-worker.js",
-    "static/css/main.ef0a1970.chunk.css.map": "/React-Chip-Search/static/css/main.ef0a1970.chunk.css.map"
+    "static/css/main.7ff4a9aa.chunk.css.map": "/React-Chip-Search/static/css/main.7ff4a9aa.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.c3d482fe.js",
     "static/js/2.4f1c6797.chunk.js",
-    "static/css/main.ef0a1970.chunk.css",
-    "static/js/main.9fb743ef.chunk.js"
+    "static/css/main.7ff4a9aa.chunk.css",
+    "static/js/main.7c4fb712.chunk.js"
   ]
 }
