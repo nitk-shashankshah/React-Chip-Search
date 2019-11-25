@@ -58,7 +58,8 @@ class App extends React.Component {
           this.removeItem(this.state.selectedList.length-1, this.state.selectedList[this.state.selectedList.length-1]);
         this.setState({lastSelected:0});
       } else {
-        this.setState({lastSelected:this.state.lastSelected+1});
+        if (!this.state.searchStr)
+          this.setState({lastSelected:this.state.lastSelected+1});
       } 
     }    
   }
